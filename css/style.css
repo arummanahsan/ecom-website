@@ -1,0 +1,53 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style-type: none;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* all common css end */
+
+/* header part start */
+#header_part{
+    /* height: 100px;
+    background: teal; */
+}
+.logo_with_menu{
+    display: flex;
+}
+.logo{
+    width: 40%;
+    padding-top: 15px;
+}
+.menu{
+    width: 40%;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    padding: 0 15px;
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+.icons{
+    width: 20%;
+    padding-top: 30px;
+}
+.icons i{
+    margin-left: 10px;
+}
+/* header part end */
